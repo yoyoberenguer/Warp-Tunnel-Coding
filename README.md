@@ -1,5 +1,7 @@
 # Warp-Tunnel-Coding
-Python code for Warp Tunnel animation 
+Python & Cython code for Warp Tunnel animation 
+Please visit orignal code written in typescript from https://seancode.com/demofx/ or https://github.com/mrkite/demofx 
+
 
 ## Cython code compilation 
 python setup.py build_ext --inplace
