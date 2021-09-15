@@ -1,5 +1,5 @@
 # Warp-Tunnel-Coding
-Python & Cython code for Warp Tunnel animation 
+Pygame, Python & Cython code for Warp Tunnel animation 
 Please visit orignal code written in typescript from https://seancode.com/demofx/ or https://github.com/mrkite/demofx 
 
 The original code was working with 256x256 texure size. 
