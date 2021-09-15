@@ -1,3 +1,14 @@
+#cython: boundscheck=False, wraparound=False, nonecheck=False, cdivision=True, optimize.use_switch=True
+# encoding: utf-8
+
+
+import pygame
+import numpy
+cimport cython
+from numpy import uint8, int32
+from libc.math cimport sin, atan2, sqrt, floor, round
+
+cdef float M_PI = 3.14159265358979323846
 
 @cython.binding(False)
 @cython.boundscheck(False)
@@ -10,7 +21,7 @@ cpdef tunnel_modeling(int screen_width, int screen_height):
     cdef int [:] angles    = numpy.empty((screen_width * screen_height * 4), int32)
     cdef int [:] shades    = numpy.empty((screen_width * screen_height * 4), int32)
 
-    surface = pygame.image.load("Assets\\space.jpg").convert()
+    surface = pygame.image.load("space1.jpg").convert()
 
     cdef int s_width  = 512
     cdef int s_height = 512
