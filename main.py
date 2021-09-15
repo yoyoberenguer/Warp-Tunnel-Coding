@@ -6,7 +6,7 @@ SCREENRECT = SCREEN.get_rect()
 
 width, height = 800, 800
 
-from Shader import tunnel_modeling, tunnel_render
+from WarpTunnel import tunnel_modeling, tunnel_render
 
 distances, angles, shades, scr_data = tunnel_modeling(width, height)
 
