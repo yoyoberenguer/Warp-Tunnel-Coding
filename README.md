@@ -3,7 +3,7 @@ Python & Cython code for Warp Tunnel animation
 Please visit orignal code written in typescript from https://seancode.com/demofx/ or https://github.com/mrkite/demofx 
 
 The original code was working with 256x256 texure size. 
-This version has been implemented for 512x512 texture size but can also works for smaller textures
+This version has been implemented for 512x512 texture
 
 ## Cython code compilation 
 python setup.py build_ext --inplace
